@@ -1,5 +1,0 @@
-all:
-	perl Makefile.PL PREFIX=/app
-
-install:	
-	perl Build install --prefix /app
