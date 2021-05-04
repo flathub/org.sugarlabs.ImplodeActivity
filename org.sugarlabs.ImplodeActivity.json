@@ -1,9 +1,9 @@
 {
     "app-id": "org.sugarlabs.ImplodeActivity",
     "base": "org.sugarlabs.BaseApp",
-    "base-version": "20.04",
+    "base-version": "21.04",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.36",
+    "runtime-version": "40",
     "sdk": "org.gnome.Sdk",
     "separate-locales": false,
     "command": "sugarapp",
