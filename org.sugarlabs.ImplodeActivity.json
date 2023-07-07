@@ -27,7 +27,11 @@
                     "type": "git",
                     "url": "https://github.com/sugarlabs/implode-activity",
                     "tag": "v20",
-                    "commit": "3073f6bf235dc83c2227ad34c2b46cad0a192c8a"
+                    "commit": "3073f6bf235dc83c2227ad34c2b46cad0a192c8a",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$"
+                    }
                 },
                 {
                     "type": "patch",
