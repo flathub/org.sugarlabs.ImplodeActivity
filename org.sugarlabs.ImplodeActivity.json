@@ -1,9 +1,9 @@
 {
     "app-id": "org.sugarlabs.ImplodeActivity",
     "base": "org.sugarlabs.BaseApp",
-    "base-version": "22.06",
+    "base-version": "23.06",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "42",
+    "runtime-version": "44",
     "sdk": "org.gnome.Sdk",
     "separate-locales": false,
     "command": "sugarapp",
@@ -27,7 +27,11 @@
                     "type": "git",
                     "url": "https://github.com/sugarlabs/implode-activity",
                     "tag": "v20",
-                    "commit": "3073f6bf235dc83c2227ad34c2b46cad0a192c8a"
+                    "commit": "3073f6bf235dc83c2227ad34c2b46cad0a192c8a",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$"
+                    }
                 },
                 {
                     "type": "patch",
