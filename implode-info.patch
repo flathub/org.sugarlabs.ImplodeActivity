@@ -2,7 +2,7 @@ diff --git a/activity/activity.info b/activity/activity.info
 index b05bdd8..3d6c3dc 100644
 --- a/activity/activity.info
 +++ b/activity/activity.info
-@@ -1,12 +1,18 @@
+@@ -1,12 +1,19 @@
  [Activity]
  name = Implode
  activity_version = 20
@@ -23,5 +23,6 @@ index b05bdd8..3d6c3dc 100644
  tags = Game
 +update_contact = tch@sugarlabs.org
 +developer_name = Sugar Labs Community
++developer_id = org.sugarlabs
 +screenshots = https://help.sugarlabs.org/en/_images/implode-image1.png
 
