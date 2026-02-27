@@ -1,9 +1,9 @@
 {
     "app-id": "org.sugarlabs.ImplodeActivity",
     "base": "org.sugarlabs.BaseApp",
-    "base-version": "24.04",
+    "base-version": "master",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "46",
+    "runtime-version": "50beta",
     "sdk": "org.gnome.Sdk",
     "separate-locales": false,
     "command": "sugarapp",
@@ -14,6 +14,9 @@
         "--device=dri",
         "--env=SUGAR_BUNDLE_ID=org.sugarlabs.ImplodeActivity",
         "--env=SUGAR_BUNDLE_PATH=/app/share/sugar/activities/Implode.activity/"
+    ],
+    "cleanup-commands": [
+        "rm -rf /app/share/gir-1.0"
     ],
     "modules": [
         {
